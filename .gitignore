@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# your own results: they name your hosts, models and accounts
+check.json
+models.json
+tags.json
+ollama-journal.txt

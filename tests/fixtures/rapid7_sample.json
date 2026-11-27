@@ -1,0 +1,407 @@
+{
+ "note": "Modelled on the sample model list in Rapid7's 'Open by Default, Already Occupied' (18 Nov 2026). Real IPs replaced with RFC 5737 documentation addresses (198.51.100.0/24, 203.0.113.0/24) and the tunnel name made up. This server's own address in the tests is 203.0.113.10.",
+ "models": [
+  {
+   "name": "llama3.1:8b",
+   "model": "llama3.1:8b",
+   "modified_at": "2026-05-02T10:11:12Z",
+   "size": 1000000,
+   "digest": "8754b77c7eee26e4145b5d20073c32e595c3ecb1a1a7d257df257479ab27c7cf",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "qwen3.6:27b",
+   "model": "qwen3.6:27b",
+   "modified_at": "2026-08-19T09:00:00Z",
+   "size": 1000000,
+   "digest": "faf54777893395ae7efe3b4227751f68fbabff1d55614695dfdf413768e37bbb",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "glm-5.3:cloud",
+   "model": "glm-5.3:cloud",
+   "modified_at": "2026-10-01T08:00:00Z",
+   "size": 0,
+   "digest": "eebb86dde33d2c82390ccb0673317413b5ce9d8ff02ff3037589b4b8b81e28e1",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   },
+   "remote_model": "glm-5.3",
+   "remote_host": "https://ollama.com:443"
+  },
+  {
+   "name": "nomic-embed-text:latest",
+   "model": "nomic-embed-text:latest",
+   "modified_at": "2026-05-02T10:20:00Z",
+   "size": 1000000,
+   "digest": "10886753ec3b09dda767d55999092b801d783cdc24f9e0e5b10045071e2d9a06",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "deepseek-v4-pro:cloud",
+   "model": "deepseek-v4-pro:cloud",
+   "modified_at": "2026-10-01T08:00:05Z",
+   "size": 0,
+   "digest": "93fe7a6335b525e85b74b3aef112540a6f194df887e0debd55919b03b8d017de",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   },
+   "remote_model": "deepseek-v4-pro",
+   "remote_host": "https://ollama.com:443"
+  },
+  {
+   "name": "198.51.100.23:9882/trigger/benign:latest",
+   "model": "198.51.100.23:9882/trigger/benign:latest",
+   "modified_at": "2026-09-03T02:14:00Z",
+   "size": 1000000,
+   "digest": "14068afd88ed5421788acdfa1b6f4f94353d729444258d59c0af6a64492e42f3",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "gemma4:e4b",
+   "model": "gemma4:e4b",
+   "modified_at": "2026-07-11T12:00:00Z",
+   "size": 1000000,
+   "digest": "4c3ca7ee04a873e73cecb900eaf0bb3826862ce2e9717dbb999ea97b17b63c88",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "zzvitals-beacon:latest",
+   "model": "zzvitals-beacon:latest",
+   "modified_at": "2026-09-27T17:41:00Z",
+   "size": 1000000,
+   "digest": "f904ff199535eb44d1a1af3416c63ad800aae9f9836b6e4822fe208ba13871f5",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "huihui_ai/Qwen3.8-abliterated:latest",
+   "model": "huihui_ai/Qwen3.8-abliterated:latest",
+   "modified_at": "2026-09-12T21:00:00Z",
+   "size": 1000000,
+   "digest": "b3787afec56fdce0336ad3be1b8ca547da0409f1ffa6670ee37aafde1bc22147",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "gpt-4o:latest",
+   "model": "gpt-4o:latest",
+   "modified_at": "2026-10-14T04:02:00Z",
+   "size": 637700138,
+   "digest": "7d852460809bcf2b0d847597f62f2e7bb5007669d0cbfc6c703cd37a9da5808e",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "claude-3-opus:latest",
+   "model": "claude-3-opus:latest",
+   "modified_at": "2026-10-14T04:02:03Z",
+   "size": 637700138,
+   "digest": "7d852460809bcf2b0d847597f62f2e7bb5007669d0cbfc6c703cd37a9da5808e",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "tinyllama:latest",
+   "model": "tinyllama:latest",
+   "modified_at": "2026-10-14T04:01:40Z",
+   "size": 637700138,
+   "digest": "7d852460809bcf2b0d847597f62f2e7bb5007669d0cbfc6c703cd37a9da5808e",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "kimi-k2.7-code:cloud",
+   "model": "kimi-k2.7-code:cloud",
+   "modified_at": "2026-10-01T08:00:09Z",
+   "size": 0,
+   "digest": "01bdce41a939a888b0712fb0fd387530dc6cd0da6d0ae4c21829814ab5d865bc",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   },
+   "remote_model": "kimi-k2.7-code",
+   "remote_host": "https://ollama.com:443"
+  },
+  {
+   "name": "verif_sys:latest",
+   "model": "verif_sys:latest",
+   "modified_at": "2026-06-21T06:30:00Z",
+   "size": 1000000,
+   "digest": "16174b9b33364db18118742e0877fb1e07ef8624893c892ebef7dfd755d4da47",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "quick-red-fox.trycloudflare.com/read/x5fa4534:b1",
+   "model": "quick-red-fox.trycloudflare.com/read/x5fa4534:b1",
+   "modified_at": "2026-11-02T23:05:00Z",
+   "size": 1000000,
+   "digest": "e496cdc836e1a6ccb04098437ff653d7fa9344d826b7583a8bc1f162ac9cd87b",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "qwen2.5-coder:7b",
+   "model": "qwen2.5-coder:7b",
+   "modified_at": "2026-05-02T10:30:00Z",
+   "size": 1000000,
+   "digest": "49b7701263a8f32ec45e1ab690d6a43ca211955979df99970b40cc462a2ca973",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "pwn_ctl_203.0.113.10_ae52:latest",
+   "model": "pwn_ctl_203.0.113.10_ae52:latest",
+   "modified_at": "2026-09-30T13:13:13Z",
+   "size": 1000000,
+   "digest": "682ad903c6e797f84bd4695e98b2110755f7e4c4d8c7ff4c7d6081426a55756f",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "minimax-m3:cloud",
+   "model": "minimax-m3:cloud",
+   "modified_at": "2026-10-01T08:00:12Z",
+   "size": 0,
+   "digest": "926f12fd10747de40a0bb9303298904ee789368aa476d7e9e804bf5133066ae8",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   },
+   "remote_model": "minimax-m3",
+   "remote_host": "https://ollama.com:443"
+  },
+  {
+   "name": "ttl.sh/dsv40110/dsv4probe:24h",
+   "model": "ttl.sh/dsv40110/dsv4probe:24h",
+   "modified_at": "2026-10-29T01:00:00Z",
+   "size": 1000000,
+   "digest": "fe72d6e8c9f1cbf77255baed78d3fca08c4f1ab62a547b68a686c1c0048efc85",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "bge-m3:latest",
+   "model": "bge-m3:latest",
+   "modified_at": "2026-06-02T08:00:00Z",
+   "size": 1000000,
+   "digest": "cd73a5a606ad482d38c453a4ccdd5a404204d462fc374bfb77fb85eaac462816",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "quick-red-fox.trycloudflare.com/read/L2V0Yy9zaGFkb3c:latest",
+   "model": "quick-red-fox.trycloudflare.com/read/L2V0Yy9zaGFkb3c:latest",
+   "modified_at": "2026-11-02T23:06:00Z",
+   "size": 1000000,
+   "digest": "48339e9daaaeb1ce7eb16d9ad0630cbc43edae8c1056d89681b5d811ac00c7e6",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "Huihui-CyberStrike-OffSec-35B-abliterated:latest",
+   "model": "Huihui-CyberStrike-OffSec-35B-abliterated:latest",
+   "modified_at": "2026-10-20T19:00:00Z",
+   "size": 1000000,
+   "digest": "a8ac274d9a84b0593bf77c8eb7d4bfffd11a668e54a29cefd0357deb7b2ec842",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "smollm2:135m",
+   "model": "smollm2:135m",
+   "modified_at": "2026-09-03T02:10:00Z",
+   "size": 1000000,
+   "digest": "5d3dfca5f3092cc44b1d2873ea27e916f4f67c82ea52d575a39e727f7f2326b6",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "ops-verify:latest",
+   "model": "ops-verify:latest",
+   "modified_at": "2026-07-30T00:00:00Z",
+   "size": 1000000,
+   "digest": "95ee0d1ebc86ff966109b1eeb9223d1df62351082aa12d8b7a5f0eafe479bb66",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "mistral-large-4:cloud",
+   "model": "mistral-large-4:cloud",
+   "modified_at": "2026-10-01T08:00:15Z",
+   "size": 0,
+   "digest": "c880e35079452bf0f7b7e15cf8dd0f1f7eea322d4458f2c19785f9a1d00b5208",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   },
+   "remote_model": "mistral-large-4",
+   "remote_host": "https://ollama.com:443"
+  },
+  {
+   "name": "quick-red-fox.trycloudflare.com/read/L3Byb2Mvc2VsZi9lbnZpcm9u:latest",
+   "model": "quick-red-fox.trycloudflare.com/read/L3Byb2Mvc2VsZi9lbnZpcm9u:latest",
+   "modified_at": "2026-11-02T23:07:00Z",
+   "size": 1000000,
+   "digest": "92eb30c8163383642ab1da8ffb04d17d8643767039364bdc0ff4f57b3dcb0557",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "qwen3-embedding:0.6b",
+   "model": "qwen3-embedding:0.6b",
+   "modified_at": "2026-06-02T08:05:00Z",
+   "size": 1000000,
+   "digest": "abfcff456d211b235e1eb3394dcaf05533b0ecf763cead4ca3e6c92c2617e4f2",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  },
+  {
+   "name": "gpt-4o:latest-copy-test",
+   "model": "gpt-4o:latest-copy-test",
+   "modified_at": "2026-10-14T04:03:00Z",
+   "size": 637700138,
+   "digest": "7d852460809bcf2b0d847597f62f2e7bb5007669d0cbfc6c703cd37a9da5808e",
+   "details": {
+    "format": "gguf",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": ""
+   }
+  }
+ ]
+}

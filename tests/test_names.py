@@ -156,6 +156,11 @@ class Classify(unittest.TestCase):
         self.assertEqual(N.classify({"name": "seen-198-51-100-77:latest"}, OWN).level, N.CHECK)
         self.assertEqual(N.classify({"name": "10.0.0.5:5000/team/model:latest"}, OWN).level, N.CHECK)
 
+    def test_cloud_suffix_any_case(self):
+        self.assertTrue(N.classify({"name": "gpt-oss:120B-Cloud"}).cloud)
+        self.assertTrue(N.classify({"name": "glm-5.3:CLOUD"}).cloud)
+        self.assertFalse(N.classify({"name": "cloudy:latest"}).cloud)
+
     def test_remote_host_elsewhere(self):
         f = N.classify({"name": "mine:cloud", "remote_host": "https://llm.example.net"})
         self.assertEqual(f.level, N.CHECK)

@@ -263,7 +263,8 @@ def embedded_times(text: str) -> list[str]:
 def is_cloud(name: Name, entry: dict | None = None) -> bool:
     if entry and entry.get("remote_host"):
         return True
-    return name.tag == "cloud" or name.tag.endswith("-cloud")
+    tag = name.tag.strip().lower()          # Ollama matches the suffix case-insensitively
+    return tag == "cloud" or tag.endswith("-cloud")
 
 
 @dataclass

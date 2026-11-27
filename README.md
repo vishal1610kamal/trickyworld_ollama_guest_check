@@ -177,11 +177,11 @@ newer versions as fixed for it.
 ## Tests
 
 ```
-python3 -m unittest discover -s tests -t .                       # 55 offline tests
+python3 -m unittest discover -s tests -t .                       # 56 offline tests
 GUESTCHECK_LIVE=1 python3 -m unittest discover -s tests -t .     # + the proxy configs, run for real
 ```
 
-Results on 27 November 2026: **55 offline tests pass on Python 3.10.12, 3.11.14, 3.12.12 and 3.13.11**; with
+Results on 27 November 2026: **56 offline tests pass on Python 3.10.12, 3.11.14, 3.12.12 and 3.13.11**; with
 `GUESTCHECK_LIVE=1`, **6 live tests pass against Apache 2.4.52** (password required, management and account
 paths refused without reaching Ollama, look-alike paths still served, a local Host header, the forged
 `X-Forwarded-For` gone, tokens streamed as they come, plain HTTP redirected). The nginx test (`nginx -t` only)
